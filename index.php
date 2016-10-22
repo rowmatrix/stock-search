@@ -49,11 +49,9 @@
         echo "<tr><th>Last Price</th><td style='text-align:center'>".$quote->LastPrice."</td></tr>";
         echo "<tr><th>Change</th><td style='text-align:center'>".number_format($quote->Change,2,'.','');
         if($quote->Change > 0) {
-            //echo "<img src='http://cs-server.usc.edu:45678/hw/hw6/images/Green_Arrow_Up.png'>";
             echo "<span class='glyphicon glyphicon-arrow-up text-success' aria-hidden='true'></span>";
         }
         elseif ($quote->Change < 0) {
-            //echo "<img src='http://cs-server.usc.edu:45678/hw/hw6/images/Red_Arrow_Down.png'>";
             echo "<span class='glyphicon glyphicon-arrow-down text-danger' aria-hidden='true'></span>";
         }
         else {
@@ -61,11 +59,9 @@
         echo "</td></tr>";
         echo "<tr><th>Change Percent</th><td style='text-align:center'>".number_format($quote->ChangePercent,2,'.','')."&#37;";
         if($quote->ChangePercent > 0) {
-            //echo "<img src='http://cs-server.usc.edu:45678/hw/hw6/images/Green_Arrow_Up.png'>";
             echo "<span class='glyphicon glyphicon-arrow-up text-success' aria-hidden='true'></span>";
         }
         elseif ($quote->ChangePercent < 0) {
-            //echo "<img src='http://cs-server.usc.edu:45678/hw/hw6/images/Red_Arrow_Down.png'>";
             echo "<span class='glyphicon glyphicon-arrow-down text-danger' aria-hidden='true'></span>";
         }
         else {
@@ -99,11 +95,9 @@
         echo "</td></tr>";
         echo "<tr><th>Change Percent YTD</th><td style='text-align:center'>".number_format($quote->ChangePercentYTD,2,'.','')."&#37;";
         if($quote->ChangePercentYTD > 0) {
-            //echo "<img src='http://cs-server.usc.edu:45678/hw/hw6/images/Green_Arrow_Up.png'>";
             echo "<span class='glyphicon glyphicon-arrow-up text-success' aria-hidden='true'></span>";
         }
         elseif ($quote->ChangePercentYTD < 0) {
-            //echo "<img src='http://cs-server.usc.edu:45678/hw/hw6/images/Red_Arrow_Down.png'>";
             echo "<span class='glyphicon glyphicon-arrow-down text-danger' aria-hidden='true'></span>";
         }
         else {
