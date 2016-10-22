@@ -6,5 +6,7 @@
 - Deployed to Heroku
 - Live: [Stock Search](https://bloc-mountie-77597.herokuapp.com/)
 
+![Stock Market Image](stockmarket.jpg)
+
 ### Todo
 - Refactor and organize code
