@@ -1,5 +1,7 @@
 # Stock Search Web App
 
+## NOTE: API no longer working
+
 - Search by stock symbols or company name
 - Built with HTML, CSS, PHP, JavaScript
 - Single page web app
